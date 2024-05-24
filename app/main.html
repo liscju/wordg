@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/open.css">
+  <link rel="stylesheet" href="style/question.css">
+  <link rel="stylesheet" href="style/result.css">
+  <link rel="stylesheet" href="style/congrats.css">
+  <link rel="stylesheet" href="style/close.css">
+</head>
+<body>
+  <div id="app">
+    <div id="open">
+      <div id="open-header">
+        <button id="open-button" type="button">OPEN</button>
+      </div>
+      <div id="open-recent">
+        <span id="open-recent-text">OPEN RECENT</span>
+        <ul id="open-recent-list">
+        </ul>
+      </div>
+    </div>
+    <div id="question">
+      <div id="question-header">
+        <div id="question-close-header">
+          <div id="question-close"></div>
+        </div>
+        <div id="question-progress"></div>
+        <div id="question-translate">TRANSLATE</div>
+      </div>
+      <div id="question-center">
+        <label id="question-text" for="answer"></label>
+        <br>
+        <input id="question-answer" type="text" placeholder="TYPE ANSWER" autofocus>
+        <button id="question-check" type="button">CHECK</button>
+      </div>
+    </div>
+    <div id="quiz-close" class="dialog">
+      <div id="quiz-close-text">
+        ARE YOU SURE
+        <br>
+        YOU WANT TO CLOSE THIS
+        <br>
+        QUIZ ?
+      </div>
+      <div id="quiz-close-buttons">
+        <button id="quiz-close-no" type="button">NO</button>
+        <button id="quiz-close-yes" type="button">YES</button>
+      </div>
+    </div>
+    <div id="result" class="dialog">
+      <div id="result-header">
+          <div id="result-icon"></div>
+      </div>
+      <div id="result-center">
+          <div id="result-question"></div>
+          <div id="result-answer"></div>
+      </div>
+      <div id="result-footer">
+          <button id="result-close" type="button">
+            OK
+          </button>
+      </div>
+    </div>
+    <div id="congrats" class="dialog">
+      <div id="congrats-header">
+        <div id="congrats-icon"></div>
+      </div>
+      <div id="congrats-center">
+        <div id="congrats-text">
+          Congratulations !
+          <br>
+          You finished QUIZ
+        </div>
+      </div>
+      <div id="congrats-footer">
+        <button id="congrats-close" type="button">
+          OK
+        </button>
+      </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>

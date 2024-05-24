@@ -1,0 +1,53 @@
+#congrats {
+    visibility: hidden;
+}
+
+#congrats-header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#congrats-icon {
+    width: 100px;
+    height: 100px;
+    background-image: url('../icons/congrats.svg');
+}
+
+#congrats-center {
+    width: 100%;
+}
+
+#congrats-text {
+    font-family: Koulen;
+    font-size: xx-large;
+    color: #777777;
+    text-align: center;
+}
+
+#congrats-footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+#congrats-close {
+    border-radius: 5px;
+    color: white;
+    background-color: #70F011;
+    border: 0px;
+    font-family: Koulen;
+    font-size: x-large;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+#congrats-close:focus {
+    outline: none;
+}
